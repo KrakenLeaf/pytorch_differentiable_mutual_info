@@ -1,7 +1,5 @@
 ## PyTorch Implementation of a differentiable mutual information measure
 This is a differentiable implementation of the mutual information (MI) metric.  
-IMPORTANT: Keep in mind that this is in fact an approximation for MI, due to the approximate (but differentiable) binning process used to estimate the joint 
-distribution between the two inputs to the function. 
 
 ### Usage
 * The differentiable MI approximation *MI_pytorch*, is defined in `pytorch_diff_mutual_info.py`.  
@@ -19,6 +17,9 @@ A simple example is provided to compare between the differentiable pytorch appro
 
 ### Requirements
 * [PyTorch-v1.4.0](http://pytorch.org/docs/1.4.0/)
+* Nibabel 3.0.0 (only for the example)
+* matplotlib 3.1.1 (only for the example)
+* Numpy 1.15.4 (only for the example)
 
 ### License 
 * MIT License
